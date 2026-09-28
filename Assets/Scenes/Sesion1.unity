@@ -266,6 +266,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1728855058}
   - component: {fileID: 1728855057}
+  - component: {fileID: 1728855059}
   m_Layer: 0
   m_Name: Resultados
   m_TagString: Untagged
@@ -280,7 +281,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1728855056}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 172792920c9eda144a8ce9d37ad86224, type: 3}
   m_Name: 
@@ -300,6 +301,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1728855059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728855056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aa04f0b3adad5e4a873ebaddcdde65d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Sesion3
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
