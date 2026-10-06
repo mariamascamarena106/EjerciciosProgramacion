@@ -268,6 +268,7 @@ GameObject:
   - component: {fileID: 1728855057}
   - component: {fileID: 1728855059}
   - component: {fileID: 1728855060}
+  - component: {fileID: 1728855061}
   m_Layer: 0
   m_Name: Resultados
   m_TagString: Untagged
@@ -321,11 +322,23 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1728855056}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 00f50f98a6af73d48a59661e569ffd6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Sesion4
+--- !u!114 &1728855061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728855056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db0a69c3292535a40ba21aff96ef8429, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Sesion5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
