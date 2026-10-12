@@ -36,6 +36,37 @@ public class Sesion5 : MonoBehaviour
             }
         }
 
+         //Ejercicio bucles for 
+        // Ejercicio 1
+        int n = 4;
+        int m = 0;
+        int resultado = 0;
+        int pares = 15;
+
+        for(int i = 1; i < n; i++)
+        {
+            resultado += i;
+        }
+        Debug.Log(resultado);
+
+        // Ejercicio 2
+
+        for(int i = 5; i > m; i--)
+        {
+            Debug.Log(i);
+        }
+        Debug.Log("Explosión");
+
+        // Ejercicio 3
+
+        for(int i = 1; i <= pares ; i++)
+        {
+            if (i % 2 == 0)
+            {
+               Debug.Log (i);
+            }
+        }
+
 
     }
 
